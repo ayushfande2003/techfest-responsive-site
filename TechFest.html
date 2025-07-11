@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Techfest IIT Bombay</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    nav {
+      background-color: #111;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 1rem;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00aaff;
+    }
+    header {
+      height: 100vh;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.3rem;
+      margin-top: 1rem;
+      max-width: 600px;
+    }
+    section {
+      padding: 80px 20px;
+      min-height: 100vh;
+    }
+    #about, #events, #contact {
+      background-color: #f5f5f5;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #111;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        margin: 10px 0;
+      }
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home">
+    <h1>Welcome to Techfest IIT Bombay</h1>
+    <p>Asia’s Largest Science & Technology Festival – Where innovation meets imagination. Join us to explore, create, and inspire!</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Techfest</h2>
+      <p>
+        Techfest is IIT Bombay’s flagship festival, a blend of technological excellence and creative brilliance. From global speakers to groundbreaking competitions, we bring future-shaping ideas to life for students across India and beyond.
+      </p>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events">
+    <div class="container">
+      <h2>Our Events</h2>
+      <ul>
+        <li>🚀 Robotics & AI Challenges</li>
+        <li>🎤 Keynote Talks from Industry Experts</li>
+        <li>🌍 Social Impact Campaigns</li>
+        <li>💡 Hackathons & Ideathons</li>
+        <li>🎮 Gaming & Fun Zones</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: contact@techfest.org</p>
+      <p>Instagram: @techfestiitbombay</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Techfest IIT Bombay | Designed by [Your Name]</p>
+  </footer>
+
+</body>
+</html>
